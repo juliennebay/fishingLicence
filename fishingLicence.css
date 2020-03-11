@@ -1,0 +1,57 @@
+table {
+  margin: auto;
+}
+
+thead > tr {
+  font-family: sans-serif;
+}
+
+tr {
+  text-align: left;
+}
+
+#postalCodeID {
+  padding-right: 25px;
+}
+
+#postal-code-head {
+  padding-right: 25px;
+}
+
+th {
+  margin-left: 0;
+}
+
+#search-box {
+  text-align: center;
+  padding: 2%;
+  border-bottom: 3px solid gray;
+}
+
+#main-table {
+  margin: 20px 80px;
+  border-right: 3px solid #f2f2f2;
+  border-left: 3px solid #f2f2f2;
+}
+
+input {
+  padding: 10px 3px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  width: 15%;
+}
+
+h2 {
+  text-align: center;
+  padding-top: 20px;
+  font-family: Helvetica, sans-serif;
+}
+
+h5 {
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+}
+#bar {
+  background-size: cover;
+  background-image: url("forest-illustration2.jpg");
+}
