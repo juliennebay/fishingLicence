@@ -19,12 +19,19 @@ fetch("https://api.ontario.ca/api/data/64029?count=0&download=1").then(
         addressRow.appendChild(td2);
         //col 3 - address
         const address = addressObj.street_address.content;
-        const td3 = document.createElement("td");
-        td3.classList.add("column");
-        td3.textContent = address;
-        addressRow.appendChild(td3);
-        //col 4 - postal code
         const postalCode = addressObj.postal_code.content;
+        const td3 = document.createElement("td");
+        const link = document.createElement("a");
+        link.setAttribute("target", "_blank");
+        link.setAttribute(
+          "href",
+          "https://google.com/maps/search/" + address + " " + postalCode
+        );
+        td3.classList.add("column");
+        addressRow.appendChild(td3);
+        td3.appendChild(link);
+        link.textContent = address;
+        //col 4 - postal code
         const td4 = document.createElement("td");
         td4.setAttribute("id", "postalCodeID");
         td4.classList.add("column");
