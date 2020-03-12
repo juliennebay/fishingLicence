@@ -1,7 +1,7 @@
 # fishingLicence
 Find a nearby location that sells hunting and fishing licences in the province of Ontario, Canada. 
 
-This is the improved version of the current app that's available on the Government of Ontario's website, which doesn't show its results unless you fully spell out the city's name (or other search keywords).
+This is an improved version of the current app that's available on the Government of Ontario's website, which doesn't show its results unless you fully spell out the city's name (or other search keywords).
 
 This has been deployed on Github pages: https://juliennebay.github.io/fishingLicence/
 
